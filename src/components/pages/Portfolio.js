@@ -1,24 +1,87 @@
 import React from 'react';
 
+let password = ("../../assets/password.png");
+let portfolio = ("../../assets/portfolio.png");
+let quizApp = ("../../assets/quizApp.png");
+let textEditor = ("../../assets/textEditor.png");
+let weather = ("../../assets/weather.png");
+let work = ("../../assets/work.png");
+
 export default function Portfolio() {
-  return (
-    <div>
-      <h1>This is my portfolio of projects!</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+return (
+  <div>
+    <h1>Project Portfolio!</h1>
+    <p>
+      On this page you will find some of my favorite projects that I have done throughout my coding
+      bootcamp experience. I have included links to my GitHub repositories for each project so you can check them out!
+    </p>
+
+    {/* password */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-1"> </div>
+    <div className="card"> </div>
+    <img height="350px" width="600px" src={process.env.PUBLIC_URL + password} className="float-left password" alt="Password Generator" />
+    <div className="card-body">
+      <h5 className="card-title">Password Generator</h5>
+      <p className="card-text">This is a password generator that will generate a random password based on the criteria you select!</p>
+      <a href="https://github.com/Luceatscode/Password-Generator" className="btn btn-primary">GitHub Repository</a>
     </div>
-  );
+
+    {/* portfolio */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-2"> </div>
+    <div className="card"> </div>
+    <img height="350px" width="600px" src={process.env.PUBLIC_URL + portfolio} className="float-left portfolio" alt="Portfolio" />
+    <div className="card-body">
+      <h5 className="card-title">Portfolio</h5>
+      <p className="card-text">This was the first portfolio I ever made!</p>
+      <a href="https://github.com/Luceatscode/Portfolio" className="btn btn-primary">GitHub Repository</a>
+    </div>
+
+    {/* quizApp */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-3"> </div>
+    <div className="card"> </div>
+    <img height="375px" width="600px" src={process.env.PUBLIC_URL + quizApp} className="float-left quizApp" alt="Quiz App" />
+    <div className="card-body">
+      <h5 className="card-title">Quiz App</h5>
+      <p className="card-text">This was a quiz app I made using Javascript!</p>
+      <a href="https://github.com/Luceatscode/quiz-app" className="btn btn-primary">GitHub Repository</a>
+    </div>
+
+    {/* textEditor */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-4"> </div>
+    <div className="card"> </div>
+    <img height="350px" width="800px" src={process.env.PUBLIC_URL + textEditor} className="float-left textEditor" alt="Text Editor" />
+    <div className="card-body">
+      <h5 className="card-title">Text Editor</h5>
+      <p className="card-text">This is a text editor that uses data persistence techniques that serve as redundancy in case one of the
+        options is not supported by the browser. The application will also function offline.!</p>
+      <a href="https://github.com/Luceatscode/textEditor" className="btn btn-primary">GitHub Repository</a>
+    </div>
+
+    {/* weather */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-4"> </div>
+    <div className="card"> </div>
+    <img height="350px" width="800px" src={process.env.PUBLIC_URL + weather} className="float-left weather" alt="Weather" />
+    <div className="card-body">
+      <h5 className="card-title">Weather App</h5>
+      <p className="card-text">This is a weather app that allows you to search a city and it will return a 5-day forecast! </p>
+      <a href="https://github.com/Luceatscode/weatherdashboard" className="btn btn-primary">GitHub Repository</a>
+    </div>
+
+    {/* work */}
+    <div className="row"> </div>
+    <div className="col-sm-6 col-4"> </div>
+    <div className="card"> </div>
+    <img height="350px" width="800px" src={process.env.PUBLIC_URL + work} className="float-left work" alt="Work" />
+    <div className="card-body">
+      <h5 className="card-title">Workday Scheduler</h5>
+      <p className="card-text">This is a workday scheduler app that allows you to save notes and each hour will change color based on a past hour, current hour, or future hour! </p>
+      <a href="https://github.com/Luceatscode/work-day-scheduler" className="btn btn-primary">GitHub Repository</a>
+    </div> </div>
+
+);
 }
