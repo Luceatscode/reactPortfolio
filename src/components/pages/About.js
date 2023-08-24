@@ -6,7 +6,8 @@ export default function About() {
   return (
     <div class= "body">
       <h1>About Page</h1>
-      <img height="350px" src={process.env.PUBLIC_URL + profilePic}  />
+      <div class="text-center" >
+      <img height="350px" src={process.env.PUBLIC_URL + profilePic}/> </div>
       <p class="bio">
         Thank you for checking out my portfolio! I live in Salt Lake City, Utah but am originally from Los Angeles, California!
         I have a passion for learning and am excited to be learning web development. I am currently enrolled in a full-stack coding bootcamp through the University of Utah.
