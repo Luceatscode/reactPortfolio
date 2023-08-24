@@ -4,10 +4,10 @@ let profilePic = ("../../assets/profilePic.jpeg");
 
 export default function About() {
   return (
-    <div>
+    <div class= "body">
       <h1>About Page</h1>
       <img height="350px" src={process.env.PUBLIC_URL + profilePic}  />
-      <p>
+      <p class="bio">
         Thank you for checking out my portfolio! I live in Salt Lake City, Utah but am originally from Los Angeles, California!
         I have a passion for learning and am excited to be learning web development. I am currently enrolled in a full-stack coding bootcamp through the University of Utah.
         As you will see in my resume, I served in the United States Marine Corps for 4 years and was a Supply Administration and Operations Non-Commissioned Officer. I went to bootcamp 

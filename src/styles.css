@@ -1,0 +1,57 @@
+.card {
+    width: 900px;
+    margin: 20px;
+    border: 1px solid #0b0303;
+}
+
+.btn-primary {
+    background-color: #1985A1;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+.bio {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+* {
+    background-color: #DCDCDD;
+}
+
+h1 {
+    color: #46494C;
+}
+
+.card-title {
+    color: #4C5C68;
+}
+
+.body {
+    padding: 20px;
+}
+
+footer {
+    background-color: #C5C3C6;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav, .nav-item{
+    background-color: #C5C3C6;
+}
+
+.nav-link{
+    color: #1985A1;
+}
+
+.nav-link.active {
+    background-color: #1985A1;
+}
