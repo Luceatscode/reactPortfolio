@@ -45,12 +45,15 @@ h1 {
 
 footer {
     background-color: #C5C3C6;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 10px;
     text-align: center;
+    justify-content: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    display: flex;
 }
 
 .nav, .nav-item{
