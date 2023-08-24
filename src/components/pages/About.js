@@ -5,7 +5,7 @@ let profilePic = require("../../assets/profilePic.jpeg");
 export default function About() {
   return (
     <div className= "body">
-      <h1>About Page</h1>
+      <h1>About Me Page</h1>
       <div className="text-center" >
       <img height="350px" src={profilePic} alt="myself by a waterfall"></img> </div>
       <p className="bio">

@@ -33,4 +33,4 @@ This is my final project for my coding bootcamp! I created a portfolio using rea
 
   Here is the link to my deployed application! [Link](https://luceatscode.github.io/reactPortfolio/)
 
-![Here is my screenshot!](profilePic.jpeg)
+![Here is my screenshot!](screenshot.png)
