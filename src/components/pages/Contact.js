@@ -4,19 +4,20 @@ export default function Contact() {
   return (
     <div class= "body">
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <form>
+      <h2>Let's get in touch!</h2>
+      <input type="text" id="name" placeholder='Your Name' required></input>
+      <input type="email" id="email" placeholder='Your Email' required></input>
+      <textarea id="message" rows="7" placeholder='Your Message' required></textarea>
+      <button type="submit">Submit</button>
+      </form>
+
+      <ul>
+        <li class= "text">Phone: 661-754-1744</li>
+        <li class= "text">Email: lucsw92@hotmail.com</li>
+        <li class= "text">GitHub: <a href="https://github.com/Luceatscode">Luceatscode</a></li>
+        <li class= "text">LinkedIn: <a href="https://www.linkedin.com/in/thomas-luc-russell-4b1421ab/">Luc Russell</a></li>
+      </ul>
     </div>
   );
 }
