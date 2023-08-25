@@ -5,7 +5,7 @@ export default function Resume() {
         <div className="body">
             <h1>This is my resume!</h1>
             <p>
-            <a href="https://docs.google.com/document/d/1FxCjwGkBkOSw-qMB1aUsQijqUQePfqnsSqZN2Hnm_7M/edit" className="btn btn-primary">Here is the link to my resume!</a>
+            <a href="https://drive.google.com/file/d/1eVNpUF95q7TE6jg8_w39qhz3EUZRIDsQ/view?usp=drive_link" className="btn btn-primary">Here is the link to download my resume!</a>
             </p>
         </div>
     );
